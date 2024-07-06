@@ -1,1 +1,3 @@
-``This is a readme for general notes, for dev commands see DEVREADME.md``
+``This is a readme for general personal notes, for dev commands see DEVREADME.md``
+
+
