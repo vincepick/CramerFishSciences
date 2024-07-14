@@ -2,41 +2,93 @@ import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
 
-//creates a new features thing wherever there exists an entry in the array
+
+// Can maybe make some of these collapsable
+
 const featuresData = [
   {
-    title: 'Example title 0',
-    text: 'This is an example text 0',
+    title: 'Fish and Habitat Monitoring',
+    texts: [
+      'Fish population monitoring',
+      'Habitat monitoring and assessment',
+      'Stream channel/sediment surveys',
+      'Large woody debris (LWD) and riparian monitoring',
+      // 'Macroinvertebrate/diatoms',
+      // 'Temperature and water quality monitoring',
+      // 'Electrofishing, snorkeling, trapping, tagging (PIT, CWT etc.)',
+      // 'Radio and acoustic tracking',
+      // 'Sampling platform',
+      // 'Resistance board weirs'
+    ],
   },
   {
-    title: 'Example title 1',
-    text: 'This is an example for text 1',
+    title: 'Fish Population and Life Cycle Modeling',
+    texts: [
+      'Life cycle and limiting factors modeling',
+      'ESA viability and extinction risk',
+      'Juvenile salmon habitat capacity (UCM)',
+      // 'Growth and bioenergetics',
+      // 'Salmon stock-recruitment',
+      // 'Hydro, hatchery, harvest and habitat effects',
+      // 'Climate change modeling'
+    ],
   },
   {
-    title: 'This is an example title 2 ',
-    text: 'THis is an example for text 2',
+    title: 'Forests and Fish',
+    texts: [
+      'Forest management and restoration plans',
+      'Riparian timber harvest',
+      'Riparian modeling and restoration',
+      'LWD recruitment',
+      // 'Water typing (Fish/Non-fish)',
+      // 'Fish passage Issues',
+      // 'Forest pesticide use',
+      // 'Livestock grazing',
+      // 'Habitat restoration',
+      // 'Monitoring and evaluation'
+    ],
   },
   {
-    title: 'This is an example title 3',
-    text: 'This is the text for title three',
+    title: 'Hatchery and Harvest Management',
+    texts: [
+      'Run size/harvest rate estimates',
+      'Sustainable yield estimations',
+      'Mixed stock analysis',
+      'Regulation strategies',
+      // 'Harvest monitoring',
+      // 'Hatchery/wild interactions',
+      // 'Genetic risk assessments',
+      // 'Hatchery Master planning'
+    ],
   },
   {
-    title: 'squigdame title',
-    text: 'squidgame text',
+    title: 'Statistical Analysis',
+    texts: [
+      'Experimental, monitoring and sampling design',
+      'Data, time series, trend and other analyses',
+      'Univariate/multivariate statistics',
+      'Nonparametric methods',
+      // 'Simulation modeling',
+      // 'Data Dashboards with R Shiny',
+      // 'Mark-recapture modeling',
+      // 'Bayesian statistics',
+      // 'Cluster/ordination analysis',
+      // 'Maximum likelihood estimators',
+      // 'Spatial analysis'
+    ],
   },
 ];
+
 
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">Active Projects</h1>
+      <p>What Is Cramer Working On Right Now?</p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
-        //passing in the title and text for the item
-        //this is an example of the power of react, being able to use the components created
-        <Feature title={item.title} text={item.text} key={item.title + index} />
+        <Feature title={item.title} texts={item.texts} key={item.title + index} />
       ))}
     </div>
   </div>

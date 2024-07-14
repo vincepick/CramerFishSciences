@@ -13,8 +13,9 @@
 }
 
 .gpt3__possibility-image img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 90%;
+    margin-left: 3rem;
 }
 
 .gpt3__possibility-content {
@@ -35,6 +36,7 @@
 
 .gpt3__possibility-content h4:last-child {
     color: #ff8A71;
+    margin-bottom: 2rem;
 }
 
 .gpt3__possibility-content h1 {
@@ -53,6 +55,35 @@
     line-height: 30px;
 
     margin-bottom: 2rem;
+}
+
+.gpt3__possibility-content2 h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 1rem 0;
+    /* margin-left:2rem; */
+}
+
+.gpt3__possibility-content2 p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* margin-left:3rem; */
+
+    margin-bottom: 2rem;
+}
+
+.gpt3__possibility-content2 h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+    margin-left: 3rem;
 }
 
 @media screen and (max-width: 950px) {

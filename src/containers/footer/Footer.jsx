@@ -1,28 +1,30 @@
 import React from 'react';
-import gpt3Logo from '../../assets/logo.svg';
+import gpt3Logo from '../../assets/cramerLogo.png';
 import './footer.css';
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+      {/* <h1 className="gradient__text">Don't Forget To Sign Up To Our Mailing List</h1> */}
+      
     </div>
 
     <div className="gpt3__footer-btn">
-      <p>Request Early Access</p>
+      <p>Request A Consultation</p>
     </div>
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <p>7525 NE Ambassador Pl., Suite C
+        Portland, OR 97220 <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <h4>Locations</h4>
+        <p>Oregon</p>
+        <p>Idaho</p>
+        <p>Washington</p>
+        <p>California</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>
@@ -32,14 +34,13 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
+        <p>Phone (888) 224-1221</p>
+        <p>Fax (503) 491-9577</p>
       </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2021 GPT-3. All rights reserved.</p>
+      <p>©2024 Cramer Fish Sciences. All rights reserved.</p>
     </div>
   </div>
 );
