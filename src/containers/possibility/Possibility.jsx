@@ -7,8 +7,8 @@ const Possibility = () => (
     <div className="gpt3__possibility-image">
       <div className="gpt3__possibility-content2">
       <img src={possibilityImage} alt="possibility" />
-      <h4>Philip Roni, Ph.D.</h4>
-      <p>President, Principal Scientist, Adjunct Professor (UCSC)</p>
+      <h4>Cramer Team 2022</h4>
+      {/* <p>Founder, Steve Putnam Cramer</p> */}
       </div>
     </div>
     <div className="gpt3__possibility-content">

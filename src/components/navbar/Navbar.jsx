@@ -7,7 +7,7 @@ const Menu = () => (
   <>
 
   <p><a href="#home">Home</a></p>
-  <p><a href="#wcramer">What is Cramer?</a></p>
+  <p><a href="#wcramer">Why Cramer?</a></p>
   <p><a href="#possibility">Cramer Expertise</a></p>
   <p><a href="#features">Case Studies</a></p>
   <p><a href="#blog">Blog</a></p>
