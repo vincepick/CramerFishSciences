@@ -4,6 +4,8 @@ import people from '../../assets/people.png';
 import ai from '../../assets/vpbestlogo.png';
 import Carousel from '../../components/carousel/Carousel';
 import '../../components/carousel/carousel.css'
+
+
 // import Feature from '../../components/feature/Feature'; 
 import { carousel01, carousel02, carousel03, carousel04, carousel05, carousel06, carousel07, carousel08 } from './imports';
 
